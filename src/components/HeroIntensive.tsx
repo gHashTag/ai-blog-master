@@ -52,28 +52,47 @@ export function HeroIntensive() {
         </div>
 
         {/* Правая колонка - Изображение */}
+        <div className="relative w-full lg:hidden">
+          <img 
+            src="https://dmrooqbmxdhdyblqzswu.supabase.co/storage/v1/object/public/images/prompts/photo_2567-11-12%2013.19.19%20copy.jpeg" 
+            alt="AI Illustration"
+            className="w-full aspect-[4/3] sm:aspect-[16/9] md:aspect-[2/1] object-cover rounded-xl shadow-lg"
+          />
+          
+          {/* Стеклянный стикер для мобильной версии */}
+          <div className="absolute bottom-3 right-3 bg-white/10 backdrop-blur-lg border border-white/30 rounded-lg p-2">
+            <div className="space-y-0.5">
+              <p className="text-white text-sm font-semibold">Дмитрий Васильев</p>
+              <p className="text-white/80 text-xs">Full Stack разработчик</p>
+              <p className="text-violet-200 text-xs font-medium">20+ лет опыта</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Десктопная версия */}
         <div className="relative hidden lg:block">
-  <div className="absolute inset-0 bg-gradient-to-r from-gray-100 to-gray-200 rounded-3xl blur-3xl" />
-  <div className="relative aspect-square rounded-3xl overflow-hidden border border-gray-200 shadow-2xl">
-    <img 
-      src="https://dmrooqbmxdhdyblqzswu.supabase.co/storage/v1/object/public/images/prompts/photo_2567-11-12%2013.19.19%20copy.jpeg" 
-      alt="AI Illustration"
-      className="w-full h-full object-cover"
-    />
-    
-    {/* Стикер об авторе */}
-    <div className="absolute bottom-2 right-2 bg-white/20 backdrop-blur-md border border-white/10 rounded-xl p-2 shadow-lg">
-  <div className="space-y-0.5">
-    <p className="text-white font-semibold">Дмитрий Нейрокодер</p>
-    <p className="text-white/80 text-sm">Full Stack разработчик</p>
-    <p className="text-violet-200 text-sm font-medium">20+ лет опыта</p>
-  </div>
-</div>
-  </div>
-</div>
+          <div className="absolute inset-0 bg-gradient-to-r from-gray-100 to-gray-200 rounded-3xl blur-3xl" />
+          <div className="relative aspect-square rounded-3xl overflow-hidden border border-gray-200 shadow-2xl">
+            <img 
+              src="https://dmrooqbmxdhdyblqzswu.supabase.co/storage/v1/object/public/images/prompts/photo_2567-11-12%2013.19.19%20copy.jpeg" 
+              alt="AI Illustration"
+              className="w-full h-full object-cover"
+              loading="lazy"
+            />
+            
+            {/* Стеклянный стикер для десктопа */}
+            <div className="absolute bottom-4 right-4 bg-white/10 backdrop-blur-lg border border-white/30 rounded-xl p-3">
+              <div className="space-y-0.5">
+                <p className="text-white font-semibold">Дмитрий Васильев</p>
+                <p className="text-white/80 text-sm">Full Stack разработчик</p>
+                <p className="text-violet-200 text-sm font-medium">20+ лет опыта</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="mt-4">
         {/* Ваш контент будет здесь */}
-      </div>
       </div>
     </div>
   );

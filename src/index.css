@@ -29,3 +29,12 @@
   animation: gradient 4s ease infinite;
 }
 
+.mask-fade-x {
+  mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+}
+
+@media (min-width: 640px) {
+  .mask-fade-x {
+    mask-image: none;
+  }
+}
