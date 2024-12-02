@@ -15,6 +15,7 @@ import { PriceBlock } from './components/PriceBlock';
 import { AuthorSection } from './components/AuthorSection';
 import { HeroIntensive } from './components/HeroIntensive';
 import { AudienceTags } from './components/AudienceTags';
+import ParallaxComponent from './components/ParallaxComponent';
 
 function App() {
   return (
@@ -50,6 +51,13 @@ function App() {
       <section className="py-5 px-4">
         <div className="max-w-7xl mx-auto">
           <SolutionSection />
+        </div>
+      </section>
+
+      {/* ParallaxComponent */}
+      <section className="py-5 px-4">
+        <div className="max-w-7xl mx-auto">
+          <ParallaxComponent />
         </div>
       </section>
 

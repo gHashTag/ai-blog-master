@@ -51,12 +51,8 @@ export function ProblemSection() {
       <div className="max-w-7xl mx-auto px-4">
         {/* Заголовок */}
         <div className="text-center mb-16 relative">
-          <div className="inline-flex items-center gap-2 bg-red-100 text-red-700 px-4 py-2 rounded-full text-sm font-medium mb-4">
-            <XCircle className="w-4 h-4" />
-            Типичные проблемы блогеров
-          </div>
-
-          <h2 className="text-4xl sm:text-5xl font-bold mb-6 bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent">
+        
+          <h2 className="text-5xl sm:text-6xl font-bold mb-6 bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent">
             Знакомые трудности?
           </h2>
 

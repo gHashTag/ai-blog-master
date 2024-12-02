@@ -33,6 +33,26 @@
   mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
 }
 
+/* path/to/ImageComponent.css */
+.parallax {
+  height: 100vh; /* Высота на весь экран */
+  overflow: hidden;
+  position: relative;
+}
+
+.parallax-image {
+  background-image: url('https://dmrooqbmxdhdyblqzswu.supabase.co/storage/v1/object/public/images/landing/ai.jpg');
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed; /* Параллакс эффект */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 @media (min-width: 640px) {
   .mask-fade-x {
     mask-image: none;

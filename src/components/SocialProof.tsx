@@ -12,8 +12,8 @@ export function SocialProof() {
             <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=100&h=100&fit=crop" alt="User" className="w-12 h-12 rounded-full border-2 border-white" />
           </div>
           <div>
-            <div className="font-semibold">2,431+</div>
-            <div className="text-sm text-gray-600">активных учеников</div>
+            <div className="font-semibold">3,450+</div>
+            <div className="text-sm text-gray-600">подписчиков</div>
           </div>
         </div>
         

@@ -9,7 +9,7 @@ export function PriceBlock() {
           <div className="space-y-4">
             <div className="flex items-baseline justify-center gap-4">
               <span className="text-5xl font-bold bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent">
-                19 900 ₽
+                10 000 ₽
               </span>
               <div className="text-left">
                 <span className="line-through text-gray-400 text-lg">39 900 ₽</span>
