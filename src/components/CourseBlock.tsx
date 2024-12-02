@@ -52,7 +52,7 @@ export function CourseBlock() {
           </h2>
 
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Получите полный набор инструментов для автоматизации вашего Instagram
+            Получите полный набор инструментов для автоматизации ваших социальных сетей
           </p>
         </div>
 
