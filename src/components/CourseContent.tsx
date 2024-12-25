@@ -1,4 +1,3 @@
-import React from 'react';
 import { Book, Video, MessageCircle, UserCheck, FileText, Gift } from 'lucide-react';
 
 export function CourseContent() {
@@ -10,7 +9,7 @@ export function CourseContent() {
     },
     {
       icon: <Video className="w-6 h-6" />,
-      title: '20+ практических уроков',
+      title: '12+ практических уроков',
       description: 'Подробные видео-инструкции с примерами'
     },
     {

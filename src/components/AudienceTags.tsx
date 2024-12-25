@@ -1,4 +1,11 @@
-import { Sparkles, Instagram, Briefcase, Palette, PenTool, Users, GraduationCap, Lightbulb } from 'lucide-react';
+import { Sparkles, Instagram, Briefcase, Palette, PenTool, GraduationCap, Lightbulb } from 'lucide-react';
+
+type AudienceTag = {
+  icon: React.ReactNode;
+  text: string;
+  bgColor: string;
+  textColor: string;
+};
 
 const audienceTags: AudienceTag[] = [
   {

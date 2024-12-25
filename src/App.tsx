@@ -1,8 +1,9 @@
-import { ArrowRight, ChevronDown, Instagram, TrendingUp, Users, Heart, DollarSign, Camera, PenTool, Palette, Briefcase, Sparkles } from 'lucide-react';
-import { Button } from './components/Button';
-import { StatCard } from './components/StatCard';
-import { HeroGallery } from './components/HeroGallery';
-import { HeroHeading } from './components/HeroHeading';
+// import { ArrowRight, ChevronDown, Instagram, TrendingUp, Users, Heart, DollarSign, Camera, PenTool, Palette, Briefcase, Sparkles } from 'lucide-react';
+// import { Button } from './components/Button';
+// import { StatCard } from './components/StatCard';
+// import { HeroGallery } from './components/HeroGallery';
+// import { HeroHeading } from './components/HeroHeading';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { ProblemSection } from './components/ProblemSection';
 import { SolutionSection } from './components/SolutionSection';
 import { LearningOutcomes } from './components/LearningOutcomes';
@@ -11,16 +12,20 @@ import { FAQ } from './components/FAQ';
 import { SocialProof } from './components/SocialProof';
 import { Footer } from './components/Footer';
 import { CourseBlock } from './components/CourseBlock';
-import { PriceBlock } from './components/PriceBlock';
+import { CoursePricing } from './components/CoursePricing';
 import { AuthorSection } from './components/AuthorSection';
 import { HeroIntensive } from './components/HeroIntensive';
 import { AudienceTags } from './components/AudienceTags';
+import { MainMenu } from './components/MainMenu';
+import { CourseProgram } from './components/CourseSlideshow';
+import { ContactSection } from './components/ContactSection';
 
-function App() {
+
+function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-pink-50 to-white">
-      {/* Hero Section */}
-      <section className="relative pt-20 pb-3 px-4 overflow-hidden">
+        {/* Hero Section */}
+        <section className="relative pt-20 pb-3 px-4 overflow-hidden">
         <div className="max-w-7xl mx-auto text-center relative">
           <AudienceTags />
         </div>
@@ -29,6 +34,7 @@ function App() {
       <section className="py-5 px-4">
         <div className="max-w-7xl mx-auto">
         <HeroIntensive />
+       
         </div>
       </section>
 
@@ -60,12 +66,6 @@ function App() {
         </div>
       </section>
 
-      {/* Projects */}
-      <section className="py-5 px-4">
-        <div className="max-w-7xl mx-auto">
-          <Projects />
-        </div>
-      </section>
 
       {/* Course Block */}
       <section className="py-5 px-4">
@@ -74,7 +74,12 @@ function App() {
         </div>
       </section>
 
-   
+      <section className="py-5 px-4">
+        <div className="max-w-7xl mx-auto">
+          <CourseProgram />
+        </div>
+      </section>
+
       <section className="py-5 px-4">
         <div className="max-w-7xl mx-auto">
           <AuthorSection imageUrl="https://dmrooqbmxdhdyblqzswu.supabase.co/storage/v1/object/public/images/prompts/photo_2567-11-12%2013.31.42.jpeg"   />
@@ -89,11 +94,30 @@ function App() {
       </section>
 
       {/* Цена и CTA */}
-      <PriceBlock />
+      <section className="py-5 px-4">
+        <div className="max-w-7xl mx-auto">
+          <CoursePricing />
+        </div>
+      </section>
 
       {/* Footer */}
       <Footer />
     </div>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <MainMenu />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/course" element={<CourseProgram />} />
+        <Route path="/faq" element={<FAQ />} />
+        <Route path="/contacts" element={<ContactSection />} />
+        <Route path="/price" element={<CoursePricing />} />
+      </Routes>
+    </Router>
   );
 }
 

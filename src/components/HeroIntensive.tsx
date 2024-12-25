@@ -1,6 +1,8 @@
 import { ArrowRight, Star } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
 export function HeroIntensive() {
+  const navigate = useNavigate();
   return (
     <div className="relative max-w-7xl mx-auto px-4">
       {/* Фоновый градиент */}
@@ -37,18 +39,7 @@ export function HeroIntensive() {
     </p>
   </div>
 </div>
-
-          {/* CTA */}
-          <div className="flex items-center gap-6">
-            <button className="bg-gray-900 hover:bg-gray-800 text-white px-8 py-4 rounded-xl font-bold text-lg shadow-lg hover:shadow-xl transition-all flex items-center gap-2">
-              ПРИНЯТЬ УЧАСТИЕ
-              <ArrowRight className="w-5 h-5" />
-            </button>
-            <div className="flex items-baseline gap-3">
-  <span className="line-through text-gray-400 text-lg">15 000₽</span>
-  <span className="text-gray-900 text-2xl font-bold">10 000₽</span>
-</div>
-          </div>
+          
         </div>
 
         {/* Правая колонка - Изображение */}

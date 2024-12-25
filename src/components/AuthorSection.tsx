@@ -24,7 +24,7 @@ export function AuthorSection({
             <div className="flex items-center gap-3">
               <Star className="w-8 h-8 text-yellow-400 flex-shrink-0" />
               <div>
-                <div className="font-bold text-lg">20+</div>
+                <div className="font-bold text-lg">10+</div>
                 <div className="text-sm text-gray-600">Лет опыта</div>
               </div>
             </div>
@@ -34,10 +34,10 @@ export function AuthorSection({
         {/* Информация об авторе */}
         <div>
           <h2 className="text-3xl font-bold mb-6">Об авторе курса</h2>
-          <h3 className="text-2xl font-semibold mb-4">Васильев Дмитрий Владимирович</h3>
+          <h3 className="text-2xl font-semibold mb-4">Дмитрий НейроКодер</h3>
           <p className="text-gray-600 mb-8">
-            Full Stack разработчик с более чем 20-летним опытом. Автор первого курса по React Native и AWS Amplify в русскоязычном интернете. 
-            Член программы AWS Community Builders от Amazon. Основатель нескольких успешных IT-проектов, включая LEELA Chakra AI и DAO 999 NFT.
+            Full Stack разработчик с более чем 10-летним опытом. Автор первого курса по React Native и AWS Amplify в русскоязычном интернете. 
+            Член программы AWS Community Builders от Amazon. Основатель нескольких успешных IT-проектов.
           </p>
 
           {/* Достижения */}
@@ -67,7 +67,7 @@ export function AuthorSection({
               <Rocket className="w-6 h-6 text-pink-500 flex-shrink-0" />
               <div>
                 <div className="font-semibold">Основатель</div>
-                <div className="text-sm text-gray-600">LEELA AI, DAO 999 NFT, JS CAMP</div>
+                <div className="text-sm text-gray-600">Leela Chakra AI, NeuroCoder, NeuroBlogger</div>
               </div>
             </div>
           </div>
