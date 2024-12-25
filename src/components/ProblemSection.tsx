@@ -51,12 +51,8 @@ export function ProblemSection() {
       <div className="max-w-7xl mx-auto px-4">
         {/* Заголовок */}
         <div className="text-center mb-16 relative">
-          <div className="inline-flex items-center gap-2 bg-red-100 text-red-700 px-4 py-2 rounded-full text-sm font-medium mb-4">
-            <XCircle className="w-4 h-4" />
-            Типичные проблемы блогеров
-          </div>
-
-          <h2 className="text-4xl sm:text-5xl font-bold mb-6 bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent">
+        
+          <h2 className="text-5xl sm:text-6xl font-bold mb-6 bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent">
             Знакомые трудности?
           </h2>
 
@@ -101,9 +97,12 @@ export function ProblemSection() {
 
         {/* CTA */}
         <div className="text-center mt-12">
-          <button className="inline-flex items-center gap-2 text-pink-600 font-semibold hover:text-pink-700 transition-colors">
+          <button className="inline-flex items-center gap-2 text-pink-600 font-semibold hover:text-pink-700 transition-colors text-3xl">
+            <svg className="w-8 h-8 animate-bounce transform rotate-180 mt-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+            </svg>
             Узнать, как решить эти проблемы
-            <svg className="w-5 h-5 animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg className="w-8 h-8 animate-bounce mt-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
             </svg>
           </button>

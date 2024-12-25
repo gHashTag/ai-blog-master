@@ -16,6 +16,7 @@ import { CoursePricing } from './components/CoursePricing';
 import { AuthorSection } from './components/AuthorSection';
 import { HeroIntensive } from './components/HeroIntensive';
 import { AudienceTags } from './components/AudienceTags';
+import ParallaxComponent from './components/ParallaxComponent';
 import { MainMenu } from './components/MainMenu';
 import { CourseProgram } from './components/CourseSlideshow';
 import { ContactSection } from './components/ContactSection';
@@ -59,6 +60,13 @@ function Home() {
         </div>
       </section>
 
+      {/* ParallaxComponent */}
+      <section className="py-5 px-4">
+        <div className="max-w-7xl mx-auto">
+          <ParallaxComponent />
+        </div>
+      </section>
+
       {/* Learning Outcomes */}
       <section className="py-5 px-4">
         <div className="max-w-7xl mx-auto">
@@ -80,11 +88,7 @@ function Home() {
         </div>
       </section>
 
-      <section className="py-5 px-4">
-        <div className="max-w-7xl mx-auto">
-          <AuthorSection imageUrl="https://dmrooqbmxdhdyblqzswu.supabase.co/storage/v1/object/public/images/prompts/photo_2567-11-12%2013.31.42.jpeg"   />
-        </div>
-      </section>
+    
       
       {/* FAQ */}
       <section className="py-5 px-4">
@@ -97,6 +101,12 @@ function Home() {
       <section className="py-5 px-4">
         <div className="max-w-7xl mx-auto">
           <CoursePricing />
+        </div>
+      </section>
+
+      <section className="py-5 px-4">
+        <div className="max-w-7xl mx-auto">
+          <AuthorSection imageUrl="https://dmrooqbmxdhdyblqzswu.supabase.co/storage/v1/object/public/images/prompts/photo_2567-11-12%2013.31.42.jpeg"   />
         </div>
       </section>
 
