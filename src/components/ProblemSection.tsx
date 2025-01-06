@@ -51,13 +51,13 @@ export function ProblemSection() {
       <div className="max-w-7xl mx-auto px-4">
         {/* Заголовок */}
         <div className="text-center mb-16 relative">
-        
-          <h2 className="text-5xl sm:text-6xl font-bold mb-6 bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent">
+
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent">
             Знакомые трудности?
           </h2>
 
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            95% блогеров сталкиваются с этими проблемами ежедневно. 
+            95% блогеров сталкиваются с этими проблемами ежедневно.
             Но теперь есть решение
           </p>
         </div>
@@ -65,7 +65,7 @@ export function ProblemSection() {
         {/* Сетка проблем */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {problems.map((problem, index) => (
-            <div 
+            <div
               key={index}
               className="group relative bg-white rounded-2xl p-8 hover:shadow-xl transition-all duration-300 overflow-hidden"
             >

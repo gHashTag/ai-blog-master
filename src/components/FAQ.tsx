@@ -26,7 +26,7 @@ export function FAQ() {
 
   return (
     <div className="bg-white rounded-2xl p-8">
-      <h2 className="text-5xl font-bold mb-8 text-center">Частые вопросы</h2>
+      <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-8 text-center">Частые вопросы</h2>
       <div className="space-y-4">
         {faqs.map((faq, index) => (
           <details key={index} className="group">

@@ -25,8 +25,8 @@ import { ContactSection } from './components/ContactSection';
 function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-pink-50 to-white">
-        {/* Hero Section */}
-        <section className="relative pt-20 pb-3 px-4 overflow-hidden">
+      {/* Hero Section */}
+      <section className="relative pt-20 pb-3 px-4 overflow-hidden">
         <div className="max-w-7xl mx-auto text-center relative">
           <AudienceTags />
         </div>
@@ -34,17 +34,17 @@ function Home() {
 
       <section className="py-5 px-4">
         <div className="max-w-7xl mx-auto">
-        <HeroIntensive />
-       
+          <HeroIntensive />
+
         </div>
       </section>
 
       {/* Social Proof */}
-      <section className="py-5 px-4">
+      {/* <section className="py-5 px-4">
         <div className="max-w-7xl mx-auto">
           <SocialProof />
         </div>
-      </section>
+      </section> */}
 
       {/* Problem Section */}
       <section className="py-5 px-4">
@@ -60,12 +60,7 @@ function Home() {
         </div>
       </section>
 
-      {/* ParallaxComponent */}
-      <section className="py-5 px-4">
-        <div className="max-w-7xl mx-auto">
-          <ParallaxComponent />
-        </div>
-      </section>
+
 
       {/* Learning Outcomes */}
       <section className="py-5 px-4">
@@ -88,8 +83,8 @@ function Home() {
         </div>
       </section>
 
-    
-      
+
+
       {/* FAQ */}
       <section className="py-5 px-4">
         <div className="max-w-7xl mx-auto">
@@ -106,7 +101,7 @@ function Home() {
 
       <section className="py-5 px-4">
         <div className="max-w-7xl mx-auto">
-          <AuthorSection imageUrl="https://dmrooqbmxdhdyblqzswu.supabase.co/storage/v1/object/public/images/prompts/photo_2567-11-12%2013.31.42.jpeg"   />
+          <AuthorSection imageUrl="https://yuukfqcsdhkyxegfwlcb.supabase.co/storage/v1/object/public/landingpage/ava.jpg" />
         </div>
       </section>
 

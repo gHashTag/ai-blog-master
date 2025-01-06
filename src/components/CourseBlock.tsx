@@ -1,4 +1,4 @@
-import {  Book, Video, MessageCircle, Sparkles } from 'lucide-react';
+import { Book, Video, MessageCircle, Sparkles } from 'lucide-react';
 
 export function CourseBlock() {
   const features = [
@@ -9,7 +9,7 @@ export function CourseBlock() {
     },
     {
       icon: <Video className="w-5 h-5" />,
-      title: "12+ практических уроков",
+      title: "9+ практических уроков",
       description: "С проверкой и обратной связью"
     },
     {
@@ -86,11 +86,11 @@ export function CourseBlock() {
               </div>
             ))}
           </div>
-          
+
         </div>
-        
+
       </div>
-      
+
     </section>
   );
 } 
