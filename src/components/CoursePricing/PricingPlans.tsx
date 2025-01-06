@@ -8,7 +8,7 @@ export const pricingPlans = [
       💬 Доступ к чату с ментором<br />
       ⭐️ 1249 на баланс бота`,
     price: '9 999 руб',
-    link: 'https://vk.com/app5898182_-92546112#s=2917298'
+    link: 'https://auth.robokassa.ru/merchant/Invoice/9gcXa7QQM02bE9b39WTI3w'
   },
   {
     title: '🧠 НейроВстреча',
@@ -18,7 +18,7 @@ export const pricingPlans = [
       🔑 Доступ к эксклюзивным материалам<br />
       🔗 Интеграция ИИ с вашими проектами`,
     price: '49 999 руб',
-    link: 'https://vk.com/app5898182_-92546112#s=newlink'
+    link: 'https://auth.robokassa.ru/merchant/Invoice/Hu3lmJjUSUimg_A53_QQ4g'
   },
   {
     title: '🤖 НейроБлогер',
@@ -28,7 +28,7 @@ export const pricingPlans = [
       📝 Практические занятия, домашние задания и поддержка куратора<br />
       ⭐️ 3040 на баланс бота`,
     price: '99 999 руб',
-    link: 'https://vk.com/app5898182_-92546112#s=2920834'
+    link: 'https://auth.robokassa.ru/merchant/Invoice/zI00mWxJ2UWhw9yFSVem6A'
   },
   {
     title: '🦸🏼‍♂️ НейроМентор',
@@ -39,6 +39,6 @@ export const pricingPlans = [
       🚀 СММ на автопилоте<br />
       ⭐️ 10000 на баланс бота`,
     price: '199 999 руб',
-    link: 'https://vk.com/app5898182_-92546112#s=2972259&force=1'
+    link: 'https://auth.robokassa.ru/merchant/Invoice/zohLUE0VVUCUokmwRWeylg'
   },
 ];
