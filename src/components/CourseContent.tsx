@@ -9,7 +9,7 @@ export function CourseContent() {
     },
     {
       icon: <Video className="w-6 h-6" />,
-      title: '9+ практических уроков',
+      title: '12 +практических уроков',
       description: 'Подробные видео-инструкции с примерами'
     },
     {

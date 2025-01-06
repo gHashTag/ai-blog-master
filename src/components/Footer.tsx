@@ -1,4 +1,4 @@
-import { MessageCircle, Mail, Instagram, Shield, FileText } from 'lucide-react';
+import { MessageCircle, Mail, Instagram, Shield, FileText, Youtube } from 'lucide-react';
 
 export function Footer() {
   return (
@@ -20,10 +20,14 @@ export function Footer() {
                 <Instagram className="w-5 h-5" />
                 Instagram
               </a>
+              <a href="https://www.youtube.com/@neuro_coder_ai_bot" className="flex items-center gap-2 hover:text-pink-400 transition-colors">
+                <Youtube className="w-5 h-5" />
+                YouTube
+              </a>
             </div>
           </div>
 
-          <div>
+          {/* <div>
             <h3 className="font-bold text-lg mb-4">Документы</h3>
             <div className="space-y-3">
               <a href="#" className="flex items-center gap-2 hover:text-pink-400 transition-colors">
@@ -39,12 +43,12 @@ export function Footer() {
                 Условия возврата
               </a>
             </div>
-          </div>
+          </div> */}
 
           <div>
             <h3 className="font-bold text-lg mb-4">О нас</h3>
             <p className="text-gray-400 mb-4">
-              Мы помогаем блогерам автоматизировать их контент и увеличить охваты с помощью искусственного интеллекта.
+              Мы помогаем блогерам и бизнесу автоматизировать их контент и увеличить охваты с помощью искусственного интеллекта и автоматизации.
             </p>
 
           </div>

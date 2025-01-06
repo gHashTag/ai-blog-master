@@ -9,7 +9,7 @@ export function CourseBlock() {
     },
     {
       icon: <Video className="w-5 h-5" />,
-      title: "9+ практических уроков",
+      title: "12+ практических уроков",
       description: "С проверкой и обратной связью"
     },
     {
