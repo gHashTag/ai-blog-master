@@ -105,6 +105,12 @@ function Home() {
         </div>
       </section>
 
+      <section className="py-5 px-4">
+        <div className="max-w-7xl mx-auto">
+          <ContactSection />
+        </div>
+      </section>
+
       {/* Footer */}
       <Footer />
     </div>
