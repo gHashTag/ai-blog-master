@@ -8,7 +8,7 @@ export function ContactSection() {
             У вас есть вопросы или хотите узнать больше? Свяжитесь с нашим менеджером, и мы с радостью поможем вам!
           </p>
           <a
-            href="https://t.me/neuro_sage"
+            href="https://t.me/E_Zavarykin"
             className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-4 rounded-full font-semibold shadow-md transition-all inline-block text-center"
             target="_blank"
             rel="noopener noreferrer"
